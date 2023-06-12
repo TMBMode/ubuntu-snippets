@@ -2,7 +2,9 @@
 - When binding a domain, we stop using the `http://ip:port/` way of things
 - Instead, we reverse proxy the port to a certain subdomain, and we end up with `http://sub.domain.tld/`
 ---
-Ensure the subdomains are configured with the DNS provider
+Ensure the subdomains are configured with the DNS provider before starting
+
+When you know your full URL's
 ```shell
 sudo apt install nginx
 sudo nano /etc/nginx/conf.d/<name>.conf

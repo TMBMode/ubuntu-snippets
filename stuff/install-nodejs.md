@@ -1,5 +1,5 @@
 ## Install NodeJS
-- New versions of Node aren't directly `apt`able
+- New versions of Node aren't directly `apt`able, so we need the source
 ---
 ```shell
 sudo apt install -y curl
